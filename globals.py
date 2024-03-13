@@ -1,0 +1,12 @@
+from pygame import Rect
+
+SCREEN_SIZE = (1600, 900)#(1920, 1080)
+SCREEN_RECT = Rect(0, 0, SCREEN_SIZE[0], SCREEN_SIZE[1])
+#constants for colors
+RED = (250,0,0)
+ORANGE = (200, 100, 0)
+GREEN = (0,150, 0)
+
+SCOLORS = {'SPRING': (250, 155, 155), 'SUMMER': GREEN, 'AUTUMN': ORANGE, 'WINTER': (255, 255, 255)}
+
+FPS = 60
